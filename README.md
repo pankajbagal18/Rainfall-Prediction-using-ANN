@@ -1,2 +1,3 @@
 # Rainfall-Prediction-using-ANN
 Seminar was presented on rainfall prediction using ANN. Partial implementation of ANN was done in python using keras libraries.
+In the model input layer is designed with 100 nodes. Two hidden layers are designed with 50 nodes and 20 nodes and one output layer is designed with one output node.  “relu” activation function is used to activate nodes at input layer and in hidden layers.  After designing model, model was trained on input training dataset which was obtained from IMD (India Meteorological Department) with 100 epochs. After training of model, model is ready for prediction.  With the help of pre compiled model, predictions were made on testing data.
